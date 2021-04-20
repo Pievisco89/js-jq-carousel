@@ -10,6 +10,7 @@
   width: 60%;
   height: 100vh;
   margin: auto;
+  background-color: rgb(208, 222, 240);
 }
 
 .wrapper{
@@ -35,7 +36,13 @@
 
 .prev i, .next i{
   cursor: pointer;
-  color: rgb(55, 0, 255);
+  color: rgb(94, 92, 92);
+}
+
+.prev:hover, .next:hover {
+  padding: 10px;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
 .wrapper .box-img{
@@ -69,6 +76,7 @@
 .wrapper .circle i{
   color: white;
   margin: 0 20px;
+  cursor: pointer;
 }
 
 .wrapper .circle i.active{
